@@ -1,0 +1,15 @@
+node_modules
+.next
+.vercel
+.env*
+!.env.example
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Private: personal details and raw outputs
+persona.md
+scripts/eval-results.md
+WhatsApp Video*.mp4
+VOICEBOT_PLAN.md
+COMPETITOR_ANALYSIS.md
+IMPROVEMENTS.md

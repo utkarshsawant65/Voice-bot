@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-card: var(--card);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-line: var(--border);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  color-scheme: dark;
+  --bg: #0b1020;
+  --card: #121933;
+  --text: #eef0ff;
+  --muted: #8b93b8;
+  --accent: #a5b4fc;
+  --border: #252d50;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 500px at 0% -10%, rgb(99 102 241 / 0.22), transparent 60%),
+    radial-gradient(700px 500px at 100% 110%, rgb(56 189 248 / 0.08), transparent 60%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  /* Keep content clear of the iPhone notch and home bar */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Portrait size follows the window height, so the studio card always fits without scrolling */
+.portrait {
+  width: clamp(7rem, 100dvh - 34rem, 18rem);
+}
+@media (max-height: 700px) {
+  .portrait {
+    width: clamp(7rem, 100dvh - 30rem, 18rem);
+  }
+  .tall-only {
+    display: none;
+  }
+}
+
+/* Scrollable without a visible scrollbar */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: rgb(165 180 252 / 0.35);
+}

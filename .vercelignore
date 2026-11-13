@@ -1,0 +1,7 @@
+.env*
+!.env.example
+node_modules
+.next
+tsconfig.tsbuildinfo
+WhatsApp Video*.mp4
+scripts/eval-results.md

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What should we know about your life story in a few sentences?",
+    "keyword": "life story",
+    "answer": "I joined a Berlin startup as an intern and ended up being its entire data and AI team. The road there started in Mumbai, with a degree in computer engineering. Then Germany, for a Master's in Applied Data Science at SRH Heidelberg. Along the way, at BioMed X, I built an AI research system that cut scientists' research time by sixty percent. At Noritual, I built an AI invoice system that handles about a thousand invoices a month. The next chapter? Building AI that real teams depend on, ideally at 100x.",
+    "audio": "/audio/example-1.mp3"
+  },
+  {
+    "question": "What is your number one superpower?",
+    "keyword": "superpower",
+    "answer": "One engineer, a thousand invoices a month, ninety-four percent accuracy. That's my superpower in numbers: taking a messy, real problem and owning it all the way to production. At Noritual, finance was drowning in invoices, and I was the only data and AI person. So I sat down with the team, built the pipeline on the Claude API, and shipped it, with a human check for anything the model isn't sure about. I don't stop at the demo. I stop when people rely on it every day.",
+    "audio": "/audio/example-2.mp3"
+  },
+  {
+    "question": "What are the top three areas you would like to grow in?",
+    "keyword": "grow",
+    "answer": "For two years I've been the one setting the rules. Now I want to learn from people who wrote better ones. That's my first growth area: working inside a mature engineering team, with senior code reviews and real system design. Second, making AI agents reliable in production, with evaluation, guardrails, and a human in the loop wherever confidence is low. Third, deep domain knowledge. I'm new to mortgages, and I want to learn them from the people who do the work every day.",
+    "audio": "/audio/example-3.mp3"
+  },
+  {
+    "question": "What misconception do your coworkers have about you?",
+    "keyword": "misconception",
+    "answer": "People think I'm the data guy who builds dashboards in the background. I'm actually the one asking why the dashboard should exist. Before I build anything, I want to know what problem it solves, who will use it, and how we'll know it worked. Yes, that means a lot of questions up front, and it can look slow. But I'd rather build the right thing once than the wrong thing quickly. The invoice system at Noritual only worked because I sat with the finance team first.",
+    "audio": "/audio/example-4.mp3"
+  },
+  {
+    "question": "How do you push your boundaries and limits?",
+    "keyword": "boundaries",
+    "answer": "I say yes before I'm ready, then close the gap fast. I joined Noritual as an intern and ended up owning the company's entire data and AI stack: cloud infrastructure, pipelines, API integrations, most of which I'd never touched before. Another one: German is my fourth language, and I'm not fluent yet. I still sat a full multi-module hiring assessment in German. Was it uncomfortable? Completely. That discomfort is exactly where I learn the fastest.",
+    "audio": "/audio/example-5.mp3"
+  },
+  {
+    "question": "Why should we hire you?",
+    "keyword": "hire you",
+    "answer": "Because I've already done this job, just at a smaller scale. At Noritual I was the company's only data and AI person, and I built an AI pipeline for financial documents: about a thousand invoices a month, ninety-four percent accuracy, a human check whenever the model is unsure, and personal data kept out of the prompts. Mortgage operations are document-heavy and regulated in the same way. With me, you'd get someone who has already shipped that pattern, and who stays until it holds.",
+    "audio": "/audio/example-6.mp3"
+  }
+]
